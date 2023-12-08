@@ -26,6 +26,8 @@
 #
 #######################################################################
 
+cmake_policy(SET CMP0026 OLD)
+
 macro(add_blas_test name src)
   get_filename_component(baseNAME ${src} NAME_WE)
   set(TEST_INPUT "${CLAPACK_SOURCE_DIR}/BLAS/${baseNAME}.in")
