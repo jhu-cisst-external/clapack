@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(CLAPACK C VERSION 3.2.1)
+project(CLAPACK LANGUAGES C VERSION 3.2.1)
 # enable_testing()
 # include(CTest)
 
